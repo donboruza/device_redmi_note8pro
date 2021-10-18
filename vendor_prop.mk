@@ -25,6 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     ro.media.recorder-max-base-layer-fps=60 \
     init.userspace_reboot.is_supported=true \
+    persist.sys.binary_xml=false \
     persist.adb.nonblocking_ffs=0 \
     persist.audio.button_jack.profile=volume \
     persist.audio.button_jack.switch=0 \
