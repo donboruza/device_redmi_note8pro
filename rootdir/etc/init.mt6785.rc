@@ -997,3 +997,10 @@ on property:sys.boot_completed=1
      # Restrict permissions to socket file
      # to hide Magisk & co.
      chmod 440 /proc/net/unix
+
+# Kill MTK PQ at startup
+service pq-2-2 /bin/sleep 12345d
+    disabled
+
+on property:sys.boot_completed=1
+    stop pq-2-2
