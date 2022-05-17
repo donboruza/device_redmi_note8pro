@@ -4,3 +4,7 @@ allow system_app zygote:unix_stream_socket { getopt getattr };
 allow system_app proc_pagetypeinfo:file read;
 allow system_app sysfs:file { read open getattr };
 allow system_app selinuxfs:file rw_file_perms;
+
+# FM Radio
+get_prop(system_app, wmt_prop)
+get_prop(system_app, mtk_default_prop)
