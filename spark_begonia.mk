@@ -17,12 +17,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit some common PixelPlusUI stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
-$(call inherit-product, vendor/gcambsg/config.mk)
-$(call inherit-product, vendor/v4afx/config.mk)
 $(call inherit-product, vendor/dirac/config.mk)
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
@@ -41,27 +39,18 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# PixelPlusUI Flags
-CUSTOM_BUILD_TYPE := OFFICIAL
-PPUI_MAINTAINER := 7Soldier
-IS_PHONE := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_QUICK_TAP  := true
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := aosp_begonia
+PRODUCT_NAME := spark_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Redmi/begonia/begonia:11/RP1A.200720.011/V12.5.7.0.RGGMIXM:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="begonia-user 11 RP1A.200720.011 V12.5.7.0.RGGMIXM release-keys" \
+    PRIVATE_BUILD_DESC=""raven-user 12 SQ3A.220705.003.A1 8672226 release-keys"
+ https://github.com/bamsryuki/begonia1/blob/12.1/lineage_begonia.mk#:~:text=raven%2Duser%2012%20SQ3A.220705.003.A1%208672226%20release%2Dkeys" \
     PRODUCT_NAME="begonia" \
     TARGET_DEVICE="begonia"
 

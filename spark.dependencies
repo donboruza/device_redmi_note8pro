@@ -1,0 +1,44 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "donboruza/device_redmi_note8pro",
+    "target_path": "device/redmi/begonia",
+    "branch"     : "tweleve"
+  }, 
+  {
+    "remote"     : "github",
+    "repository" : "donboruza/android_device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "branch"     : "12.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "VoidDev-0/kernel_xiaomi_begonia",
+    "target_path": "kernel/xiaomi/mt6785",
+    "branch"     : "rebase"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "donbozura/vendor_redmi_note8pro",
+    "target_path": "vendor/redmi/begonia",  
+    "branch"     : "twelve"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "donbozura/android_vendor_redmi_begonia-ims",
+    "target_path": "vendor/redmi/begonia-ims",
+    "branch"     : "12.0"
+  },
+  {
+   "remote"     : "github",
+    "repository" : "donbozura/vendor_redmi_note8pro-firmware",
+    "target_path": "vendor/redmi/begonia-firmware",
+    "branch"     : "12.0"
+  },
+  {
+   "repository": "donbozura/android_packages_apps_MtkFMRadio",
+   "target_path": "packages/apps/MtkFMRadio",
+   "branch": "12.1",   
+   "remote": "github"
+ }
+]
