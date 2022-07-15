@@ -49,8 +49,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC=""raven-user 12 SQ3A.220705.003.A1 8672226 release-keys"
- https://github.com/bamsryuki/begonia1/blob/12.1/lineage_begonia.mk#:~:text=raven%2Duser%2012%20SQ3A.220705.003.A1%208672226%20release%2Dkeys" \
+    PRIVATE_BUILD_DESC="raven-user 12 SQ3A.220705.003.A1 8672226 release-keys" \
     PRODUCT_NAME="begonia" \
     TARGET_DEVICE="begonia"
 
