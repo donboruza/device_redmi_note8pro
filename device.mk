@@ -114,10 +114,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service-lazy \
     android.hardware.drm@1.4-service.clearkey
 
-# FM Radio
-PRODUCT_PACKAGES += \
-    MtkFMRadio
-
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
