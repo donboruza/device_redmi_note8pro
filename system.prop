@@ -122,6 +122,9 @@ sys.ipo.pwrdncap=2
 ro.product.property_source_order=odm,vendor,product,system
 persist.sys.mdlog_dumpback=2
 
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
 # Ram
 ro.config.fha_enable=true
 ro.sys.fw.bg_apps_limit=32
