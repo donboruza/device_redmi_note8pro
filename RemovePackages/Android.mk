@@ -5,13 +5,18 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    Browser2 \
+    Camera2 \
+    DeskClock \
     Drive \
+    Gallery2 \
     GoogleTTS \
     Maps \
     Music \
     Photos \
     PrebuiltGmail \
     RecorderPrebuilt \
+    Stk \
     TurboPrebuilt \
     Velvet \
     WellbeingPrebuilt \
