@@ -9,8 +9,11 @@ LOCAL_OVERRIDES_PACKAGES := \
     Camera2 \
     DeskClock \
     Drive \
+    Etar \
+    ExactCalculator \
     Gallery2 \
     GoogleTTS \
+    Jelly \
     Maps \
     Music \
     PartnerSetupPrebuilt \
