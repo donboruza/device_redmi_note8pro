@@ -13,10 +13,14 @@ LOCAL_OVERRIDES_PACKAGES := \
     GoogleTTS \
     Maps \
     Music \
-    Photos \
+    PartnerSetupPrebuilt \
     PrebuiltGmail \
     RecorderPrebuilt \
     Stk \
+    SafetyHubPrebuilt \
+    SecurityHubPrebuilt \
+    SoundAmplifierPrebuilt \
+    PixelBuds \
     TurboPrebuilt \
     Velvet \
     WellbeingPrebuilt \
