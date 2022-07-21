@@ -28,5 +28,5 @@
     "repository" : "donboruza/android_vendor_redmi_begonia-ims",
     "target_path": "vendor/redmi/begonia-ims",
     "branch"     : "12.0"
-  },
+  }
 ]
