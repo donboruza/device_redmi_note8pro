@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_begonia.mk
+    $(LOCAL_DIR)/xdroid_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_begonia-user \
-    lineage_begonia-userdebug \
-    lineage_begonia-eng
+    xdroid_begonia-user \
+    xdroid_begonia-userdebug \
+    xdroid_begonia-eng

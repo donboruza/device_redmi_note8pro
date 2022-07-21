@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit some common PixelPlusUI stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
@@ -41,13 +41,13 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := lineage_begonia
+PRODUCT_NAME := xdroid_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 #  stuff
-WITH_GAPPS := false
+WITH_GAPPS := true
 TARGET_USES_BLUR := true
 
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys"
