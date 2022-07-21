@@ -13,9 +13,9 @@
   },
   {
     "remote"     : "github",
-    "repository" : "VoidDev-0/kernel_xiaomi_begonia",
+    "repository" : "donboruza/andeoid_kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
-    "branch"     : "rebase"
+    "branch"     : "12.1"
   },
   {
     "remote"     : "github",
