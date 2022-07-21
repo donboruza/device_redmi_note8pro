@@ -47,8 +47,11 @@ PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 #  stuff
-WITH_GAPPS := false
+RICE_MAINTAINER := don.boruza
+WITH_GMS := false
+RICE_CHIPSET := G90T
 TARGET_USES_BLUR := true
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
 
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys"
 
