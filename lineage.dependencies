@@ -29,16 +29,4 @@
     "target_path": "vendor/redmi/begonia-ims",
     "branch"     : "12.0"
   },
-  {
-   "remote"     : "github",
-    "repository" : "donboruza/vendor_redmi_note8pro-firmware",
-    "target_path": "vendor/redmi/begonia-firmware",
-    "branch"     : "12.0"
-  },
-  {
-   "repository": "donboruza/android_packages_apps_MtkFMRadio",
-   "target_path": "packages/apps/MtkFMRadio",
-   "branch": "12.1",   
-   "remote": "github"
- }
 ]
