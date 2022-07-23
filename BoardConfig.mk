@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
 DEVICE_PATH := device/redmi/begonia
 
 # Architecture
@@ -81,6 +79,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Broken rules
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Misc
 TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE := true
