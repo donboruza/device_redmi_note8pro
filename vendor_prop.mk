@@ -460,7 +460,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
-    ro.surface_flinger.has_wide_color_display=true
+    ro.surface_flinger.has_wide_color_display=true \
+    debug.sf.disable_client_composition_cache=1
 
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
