@@ -51,7 +51,7 @@ USE_GAPPS := false
 TARGET_USES_BLUR := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 RAVEN_LAIR := Unofficial
-CORVUS_MAINTAINER := don.boruza
+CORVUS_MAINTAINER := don.boruzaa
 
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys"
 
