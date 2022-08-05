@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit some common kscope stuff
-$(call inherit-product, vendor/kscope/target/product/mobile.mk)
+$(call inherit-product, vendor/kscope/config/mobile.mk)
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
