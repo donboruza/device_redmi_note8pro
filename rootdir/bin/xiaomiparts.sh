@@ -102,7 +102,7 @@ if [ "$vsyncdisold" != "$vsyncdis" ]; then
   setprop ro.surface_flinger.running_without_sync_framework 1
   ;;
   *)# First boot params
-  setprop ro.surface_flinger.running_without_sync_framework 0
+  setprop ro.surface_flinger.running_without_sync_framework 1
   ;;
   esac
 	vsyncdisold=$vsyncdis
