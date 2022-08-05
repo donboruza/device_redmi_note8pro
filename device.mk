@@ -358,7 +358,6 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    gcam.sh \
     partition_permission.sh \
     setup_MTK_In-Call_volume_adjust.sh \
     throttle.sh \
@@ -367,7 +366,6 @@ PRODUCT_PACKAGES += \
     init.modem.rc \
     init.mt6785.rc \
     init.mt6785.usb.rc \
-    init.gcam.rc \
     init.mtkincalladj.rc \
     init.safailnet.rc \
     init.project.rc \

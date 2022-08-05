@@ -1,9 +1,0 @@
-on boot
-    start gcam_sh
-
-# Start GCam cp service
-service gcam_sh /vendor/bin/gcam.sh
-	class main
-	user root
-	seclabel u:r:su:s0
-	oneshot
