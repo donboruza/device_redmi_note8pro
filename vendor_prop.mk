@@ -466,3 +466,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+#HWUI
+PRODUCT_PROPERTY_OVERRIDES += \
+   debug.hwui.use_hint_manager=true \
+   debug.hwui.target_cpu_time_percent=30
