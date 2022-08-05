@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_begonia.mk
+    $(LOCAL_DIR)/kscope_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_begonia-user \
-    spark_begonia-userdebug \
-    spark_begonia-eng
+    kscope_begonia-user \
+    kscope_begonia-userdebug \
+    kscope_begonia-eng
