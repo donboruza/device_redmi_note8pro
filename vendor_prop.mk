@@ -460,8 +460,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
-    ro.surface_flinger.has_wide_color_display=true
+    ro.surface_flinger.has_wide_color_display=true \
+    debug.sf.disable_client_composition_cache=1
 
-# Zygote preforking
+#HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
+   debug.hwui.use_hint_manager=true \
+   debug.hwui.target_cpu_time_percent=30

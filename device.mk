@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
@@ -280,6 +277,9 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor \
     android.hardware.neuralnetworks@1.3.vendor
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -358,7 +358,6 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    gcam.sh \
     partition_permission.sh \
     setup_MTK_In-Call_volume_adjust.sh \
     throttle.sh \
@@ -367,8 +366,8 @@ PRODUCT_PACKAGES += \
     init.modem.rc \
     init.mt6785.rc \
     init.mt6785.usb.rc \
-    init.gcam.rc \
     init.mtkincalladj.rc \
+    init.safailnet.rc \
     init.project.rc \
     init.sensor_1_0.rc \
     init.ttl.rc \

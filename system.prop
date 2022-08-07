@@ -86,6 +86,9 @@ persist.sys.fuse.passthrough.enable=true
 # Graphics
 ro.opengles.version=196610
 
+# IORap
+ro.iorapd.enable=false
+
 # IPO
 sys.ipo.disable=1
 
