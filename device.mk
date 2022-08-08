@@ -188,6 +188,12 @@ PRODUCT_PACKAGES += \
     libplatformconfig \
     libarbitrarybytes
 
+# Leds
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service.begonia
+
+
 # Media
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
@@ -282,7 +288,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
