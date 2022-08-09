@@ -461,7 +461,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
     ro.surface_flinger.has_wide_color_display=true \
-    debug.sf.disable_client_composition_cache=1
+    debug.sf.disable_client_composition_cache=1 \
+    ro.surface_flinger.protected_contents=true
 
 #HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
