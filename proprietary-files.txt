@@ -791,9 +791,6 @@ vendor/lib64/2libmtkcam.logicalmodule.so
 vendor/lib64/2libmtkcam_metastore.so
 vendor/lib64/2libmtkcam_pipelinepolicy.so
 
-# BSG Gcam config
-etc/Gcam/Configs8/bsg_mk_v1.3.xml
-
 # Mediatek
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
