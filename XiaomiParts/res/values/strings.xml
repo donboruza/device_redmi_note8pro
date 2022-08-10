@@ -131,11 +131,6 @@
     <string name="proximity_wake_enable_title">Proximity wake</string>
     <string name="proximity_wake_enable_summary">Wake device on hand wave</string>
 
-    <!-- MTK Engineering Mode -->
-    <string name="engmode">Engineering mode</string>
-    <string name="engmode_title">MTK Engineering Mode</string>
-    <string name="engmode_summary">Engineering Mode for mediatek SOCs. Network, debug and testing utils.</string>
-
     <!-- Codecs -->
     <string name="codecs_title">Codecs</string>
     <string name="codecs_summary">Codecs priority</string>

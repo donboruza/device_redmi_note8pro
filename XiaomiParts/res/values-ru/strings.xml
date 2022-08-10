@@ -176,11 +176,6 @@
     <string name="spectrum_powerful">Мощный (1m)</string>
     <string name="spectrum_spowerful">Сверхмощный (10m)</string>
 
-    <!-- MTK Engineering Mode -->
-    <string name="engmode">Инженерное меню</string>
-    <string name="engmode_title">Инженерное меню МТК</string>
-    <string name="engmode_summary">Инженерное меню для процессоров МТК. Сетевые, отладочные и тестовые инструменты.</string>
-
     <!-- Codecs -->
     <string name="codecs_title">Кодеки</string>
     <string name="codecs_summary">Приоритетные кодеки</string>

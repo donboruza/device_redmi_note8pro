@@ -64,34 +64,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="engmode"
-        android:title="@string/engmode">
-
-        <Preference
-            android:icon="@drawable/ic_engmode"
-            android:title="@string/engmode_title"
-            android:summary="@string/engmode_summary">
-
-            <intent
-                android:targetPackage="com.mediatek.engineermode"
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.mediatek.engineermode.EngineerMode" />
-
-        </Preference>
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="misc"
         android:title="@string/misc_title">
-
+		
         <com.redmi.xiaomiparts.preferences.SecureSettingListPreference
             android:defaultValue="0"
             android:key="codecs"
             android:icon="@drawable/ic_codecs"
             android:title="@string/codecs_title"
-            android:summary="@string/codecs_summary"
-            android:dialogTitle="@string/codecs_dialogTitle"
+	    android:summary="@string/codecs_summary"
+	    android:dialogTitle="@string/codecs_dialogTitle"
             android:entries="@array/codecs_profiles"
             android:entryValues="@array/codecs_values" />
         
@@ -130,25 +112,24 @@
             android:key="usb"
             android:icon="@drawable/ic_usb"
             android:title="@string/usb_title"
-			android:summary="@string/usb_summary"
-			android:dialogTitle="@string/usb_dialogTitle" />
+	    android:summary="@string/usb_summary"
+	    android:dialogTitle="@string/usb_dialogTitle" />
 
         <com.redmi.xiaomiparts.preferences.SecureSettingSwitchPreference
             android:defaultValue="0"
             android:key="thermal"
             android:icon="@drawable/ic_thermal"
             android:title="@string/thermal_title"
-			android:summary="@string/thermal_summary"
-			android:dialogTitle="@string/thermal_dialogTitle" />
+	    android:summary="@string/thermal_summary"
+	    android:dialogTitle="@string/thermal_dialogTitle" />
 
         <com.redmi.xiaomiparts.preferences.SecureSettingSwitchPreference
             android:defaultValue="0"
             android:key="force64"
             android:icon="@drawable/ic_64mp"
             android:title="@string/force64_title"
-			android:summary="@string/force64_summary"
-			android:dialogTitle="@string/force64_dialogTitle" />
-            
+	    android:summary="@string/force64_summary"
+	    android:dialogTitle="@string/force64_dialogTitle" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -160,8 +141,8 @@
             android:key="vsync"
             android:icon="@drawable/ic_vs"
             android:title="@string/vsync_title"
-			android:summary="@string/vsync_summary"
-			android:dialogTitle="@string/vsync_dialogTitle"
+	    android:summary="@string/vsync_summary"
+	    android:dialogTitle="@string/vsync_dialogTitle"
             android:entries="@array/vsync_profiles"
             android:entryValues="@array/vsync_values" />
 
@@ -170,32 +151,31 @@
             android:key="latch_unsignaled"
             android:icon="@drawable/ic_latch"
             android:title="@string/latch_unsignaled_title"
-			android:summary="@string/latch_unsignaled_summary"
-			android:dialogTitle="@string/latch_unsignaled_dialogTitle" />
+	    android:summary="@string/latch_unsignaled_summary"
+	    android:dialogTitle="@string/latch_unsignaled_dialogTitle" />
 
         <com.redmi.xiaomiparts.preferences.SecureSettingSwitchPreference
             android:defaultValue="0"
             android:key="pq"
             android:icon="@drawable/ic_pq"
             android:title="@string/pq_title"
-			android:summary="@string/pq_summary"
-			android:dialogTitle="@string/pq_dialogTitle" />
+	    android:summary="@string/pq_summary"
+	    android:dialogTitle="@string/pq_dialogTitle" />
 
         <com.redmi.xiaomiparts.preferences.SecureSettingSwitchPreference
             android:defaultValue="0"
             android:key="hw_overlays"
             android:icon="@drawable/ic_hwoverlays"
             android:title="@string/hw_overlays_title"
-			android:summary="@string/hw_overlays_summary"
-			android:dialogTitle="@string/hw_overlays_dialogTitle" />
+	    android:summary="@string/hw_overlays_summary"
+	    android:dialogTitle="@string/hw_overlays_dialogTitle" />
         
         <SwitchPreference
             android:key="fps_info"
             android:icon="@drawable/ic_fps_info"
             android:title="@string/fps_info_title"
             android:summary="@string/fps_info_summary"
-            android:persistent="false" />
-			
+            android:persistent="false" />		
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -217,6 +197,5 @@
             android:icon="@drawable/ic_vibrate"
             android:title="@string/vibration_strength_title" />
     </PreferenceCategory>
-
 
 </PreferenceScreen>
